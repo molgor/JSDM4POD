@@ -7,9 +7,16 @@ This repository contains working examples for running (and fitting) the model de
 
 ## Installation
 The model uses PyStan, Jupyter notebooks and Pandas. 
-The best way to run the software is using the Docker container *Biospytial3*
+The best way to create a Conda environment.
+The files with the necessary libraries and packages are stored as: `requirements.yml`
 
-> TODO: include reference to BP3
+To install the environment (with a working Anaconda installation) do:
+
+`conda env create -f requirements.yml`
+
+*IMPORTANT*: The library PyStan needs to be version 2.x. The notebooks would not work with version 3.x.
+
+
 
 ## Setting up data files
 Due to Github policy restrictions on file sizes, some of the data needed are compressed in the folder 'data/'. 
