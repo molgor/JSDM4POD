@@ -1,0 +1,26 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+name: JSDM4POD
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - geos
+  - gdal
+  - pip
+  - pip:
+    - seaborn
+    - sympy
+    - numpy
+    - pymc3
+    - pyvis
+    - descartes
+    - jupyter
+    - jupyterlab
+    - geoviews
+    - dash
+    - pystan
+    - hvplot
+    - ipdb
+    - py2neo
+    - arviz
